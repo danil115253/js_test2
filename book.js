@@ -90,9 +90,29 @@ console.log (`Тебя зовут ${userName}`); */
 //      }
 //  }
 
+//      Проверка типа данных. Перевод в другой тип с помошью typeof.
+
+// let value = true;
+// alert (typeof value);
+
+// value = String (value);
+// alert (typeof value);
 
 
+            // Переводит строку в числа
 
-   
+// let str = "123";
+// alert (typeof str);
 
- 
+// let num = Number (str);
+
+// alert (typeof num);
+
+//     оператор "+" переводит в строку.
+
+// let a = prompt("Первое число?", 1);
+// let b = prompt("Второе число?", 2);
+
+//  alert (+a + +b);
+
+

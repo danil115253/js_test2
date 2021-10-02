@@ -1,10 +1,8 @@
 //               Задача 1 (Не понял)
 
 
-// let numOne = Math.(1.005 * 100);
-
-// numOne /= 100;
-// console.log (numOne); 
+        // let numOne = Math.ceil(1.005 * 100) / 100;
+        // console.log (numOne); 
 
 
 //              Задача 2
@@ -76,8 +74,8 @@
 
 //      Задача 6.1
 
-let text = "Фрилансер";
-console.log(text.includes("лан", 4))
+// let text = "Фрилансер";
+// console.log(text.includes("лан", 4))
 
 
 

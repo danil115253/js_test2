@@ -42,13 +42,14 @@
 //   console.log (counter);
 // } while (counter !== 2);
 
- let counter = 0;
- for (;;) {
-   counter++;
-   console.log("foring");
-     if (counter === 5) {
-      break;
-     }
- }
+//  let counter = 0;
+//  for (;;) {
+//    counter++;
+//    console.log("foring");
+//      if (counter === 5) {
+//       break;
+//      }
+//  }
+
 
 

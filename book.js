@@ -115,4 +115,63 @@ console.log (`Тебя зовут ${userName}`); */
 
 //  alert (+a + +b);
 
+//
+
+//    (  короткий способ через ? и :   )
+
+        // let js = prompt("Кто создал компанию JavaScript");
+
+        // js == "ECMAscript" ?
+
+        // alert ("Правильно") : alert ("Не знаете ECMAskript?)");
+
+        //             // длинный способ через  if , else 
+
+        // let js1 = prompt("Кто создал компанию JavaScript");            
+
+        // if ( js1 == "ECMAscript") {
+        //     alert ("Правильно");
+        // }
+
+        // else 
+        // alert ("Не знаете ECMAskript?)");
+
+// 
+
+// let zad2 = prompt("Ваше число?");
+
+// if (zad2 > 0) {
+//     alert ("1");
+// }
+
+// else if (zad2 < 0) {
+//     alert ("-1");
+// }
+
+
+// else  {
+//     alert ("ноль")
+// }
+
+//
+
+        // // Задачка 2
+        // let rezult;
+        // let a = 3;
+        // let b = 2;
+
+        // rezult = (a + b < 4) ?  "Мало" : "Много";
+
+        // alert(rezult);
+
+// 
+
+let message;
+let login = prompt("Кто вы?");
+
+message = (login == "Сотрудник") ? "Привет" :
+message = (login == "Директор") ? "Здравствуйте" : "Нет логина";
+
+alert (message);
+
 

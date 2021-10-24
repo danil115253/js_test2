@@ -115,7 +115,7 @@ console.log (`Тебя зовут ${userName}`); */
 
 //  alert (+a + +b);
 
-//
+//////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 //    (  короткий способ через ? и :   )
 
@@ -166,12 +166,97 @@ console.log (`Тебя зовут ${userName}`); */
 
 // 
 
-let message;
-let login = prompt("Кто вы?");
+// Задача 3
+//                  (Сокрашение if)
 
-message = (login == "Сотрудник") ? "Привет" :
-message = (login == "Директор") ? "Здравствуйте" : "Нет логина";
+        //  let message;
+        //  let login = prompt("Кто вы?");
 
-alert (message);
+        //  message = (login == "Сотрудник") ? "Привет" :
+        //  message = (login == "Директор") ? "Здравствуйте" : "Нет логина";
+
+        //  console.log(message);
+
+/////////////////////////////////////////////////////////////////////////////////////////     
+
+///          Циклы
+
+                // let sum = 0;
+
+                // while (true) {
+
+                //         let value = +prompt('Введиде значение', '');
+
+                //         if (! value) break;
+
+                //         sum += value;
+                        
+                // }
+
+                // alert( 'Сумма:' + sum);
+
+//           switch / case
 
 
+
+                // let a = "1";
+                // let b = 0;
+
+                // switch (+a) {
+                //   case b + 1:
+                //     alert("Выполнится, т.к. значением +a будет 1, что в точности равно b+1");
+                //     break;
+
+                //   default:
+                //     alert("Это не выполнится");
+                // }
+
+
+// Задача переобразование с if в switch case 
+
+                // const number = +prompt('Введите число между 0 и 3', '');
+
+                // switch (number) {
+                //         case 0:
+                //         alert('Вы ввели число 0') 
+                //                 break;
+                //         case 1:
+                //         alert('Вы ввели число 1')
+                //                 break;
+
+                //         case 2:
+                //         case 3:
+                //         alert('Вы ввели число 2, а может и 3');
+                //                 break;
+                //         default: 
+                //         alert("Неизвестно");
+                // }
+//
+
+// Задача 2  Переобразование с switch / case
+
+                // let browser = prompt("Введите название браузера");
+
+                // if (browser == 'Edge'){
+                //         alert( "У вас есть Edge!" );
+                // }
+                        
+                // else if (browser == 'Chrome'
+                //  || browser == 'Firefox'
+                //  || browser == 'Safari'
+                //  || browser == 'Opera') {
+                //         alert( 'Хорошо, мы тоже поддерживаем эти браузеры' );
+                // }
+
+                //         else {
+                //                 alert( 'Мы надеемся, что эта страница выглядит нормально!' );
+                //         }
+
+
+//              Функции
+
+function min(a,b) {
+        return (a > b)
+      }
+
+      console.log(min(2, 5));
